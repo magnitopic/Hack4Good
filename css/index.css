@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+	background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+
+}
+
+span {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item img {
+    display: block;
+    max-height:35em;
+    width: auto;
+    min-height: 30rem;
+    object-fit: cover;
+    z-index: -10;
+}
+
+#logo-img {
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-left: 1em;
+    height: 5.5rem;
+    width: 5rem;
+}
+img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.header {
+    /*background-color: rgba(0, 0, 0, 0.8);*/
+    margin-left: 0;
+    height: 3em;
+    width: 100%;
+    z-index: 100;
+    position: absolute;
+    display: flex;
+}
+#logo {
+    height: 8rem;
+    width: 8rem;
+}
+
+.padding {
+    padding: 2em;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-section section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+
+}
+
+.floating-btn {
+    margin-top: 5rem;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    position: absolute  ;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.floating-btn a {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    min-width: 30%;
+    padding: 1em;
+    margin-bottom: 3%;
+    padding-left: 3em;
+    padding-right: 3em;
+    background: linear-gradient(to right, rgba(182, 244, 146, 0.7), rgba(51, 139, 147, 0.7));
+    border-radius: 1em;
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 120%;
+}
+.button-section {
+    margin-top: 2rem;
+    margin-right: 2em;
+    margin-left: auto;
+}
+
+a:hover {
+    opacity: 80%;
+}
